@@ -4,19 +4,28 @@
     padding: 0;
 }
 
-h1{
-    color: rgb(9, 219, 89);
+header li {
+    display: inline;
 }
 
-h2 {
-    color: green;
+.container {
+    width: 1366px;
+    margin: 0 auto;
 }
 
-#economy h2{
-    color: gold;
+/* organiza os espaços*/
+.articles {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;  /* organiza o espaço entre os artigos*/
 }
 
-.creation-date {
-    color: #ccc;
+/* organiza o tamanho das imagens*/
+.articles article img {
+    height: 180px;
 }
 
+/* organiza o layout dos artigos*/
+.articles article {
+    width: 30%;
+}
