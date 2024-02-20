@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(9, 219, 89);
+}
+
+h2 {
+    color: green;
+}
+
+#economy h2{
+    color: gold;
+}
+
+.creation-date {
+    color: #ccc;
+}
+
